@@ -29,6 +29,7 @@ function verifier(nombre) {
         // Félicitations !
         instruction.innerHTML = `#${coups} - Félicitations ! Vous avez trouvé le juste prix (${nombre}) !`
         instruction.className = "fini"
+        input.disabled = true
     }
 
     instructions.prepend(instruction)
